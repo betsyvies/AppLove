@@ -169,6 +169,7 @@ button a {
   background: #f17c72;
   text-align: center;
   position: relative;
+  width: 100%;
 }
 
 .container1 h2 {
@@ -190,12 +191,21 @@ button a {
   color: #fff;
 }
 
-.container1 div h5, h6 {
+.container1 div {
   display: inline-block;
+  margin-top: 300px;
+  width: 25%;
+  
+}
+
+.container1 div h5,h6 {
+  color: #fff;
+  line-height: 0.01px;
 }
 
 .services {
-  width: 100px;
-  height: 100px;
+  width: 200px;
 }
+
+
 
