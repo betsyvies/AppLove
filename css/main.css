@@ -194,18 +194,42 @@ button a {
 .container1 div {
   display: inline-block;
   margin-top: 300px;
+  margin-bottom: 70px;
   width: 25%;
   
 }
 
 .container1 div h5,h6 {
   color: #fff;
-  line-height: 0.01px;
+  margin: 0;
 }
 
 .services {
   width: 200px;
 }
 
+.container2 {
+  background: #fff;
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
 
+.container2 h2 {
+  font-size: 40px;
+  color: #000;
+}
+
+img[alt="hero"] {
+  width: 100%;
+  margin: 30px;
+}
+
+.container3 {
+  display: inline-block;
+}
+
+.container3 img {
+  width: 100px;
+}
 
