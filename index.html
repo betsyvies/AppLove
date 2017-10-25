@@ -4,39 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Usaremos esta etiqueta para linkear y así poder usar el tipo de letra Raleway de font google-->
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <!--Para enlazar el archivo css con html se usará el siguiente link-->
     <link rel="stylesheet" href="css/main.css">
     <title>AppLove</title>
   </head>
+  <!--El cuerpo del html esta compuesto por "header", tres "section" y "footer"-->
   <body>
+    <!--La etiqueta header se utiliza para los encabezados, para hacerlo más especifico y de acuerdo a lo 
+    que nos piden le daremos una clase que tendrá por nombre "fixed-header"-->
     <header class="fixed-header ">
+      <!--Para el menu que estará fijo usaremos la etiqueta "nav" y esta contendra a las demas etiquetas que
+      usaremos en nuestro menu-->
       <nav>
+        <!--Usaremos la etiqueta "a" por si en un futuro deseamos usar links que nos direcciones a otra página-->
         <a class="text-uppercase">Services</a>
         <a class="text-uppercase">Work</a>
         <a class="text-uppercase">The team</a>
       </nav>
+      <!--La etiqueta figure se usa como contenedor de las imagenes-->
       <figure>
         <img src="assets/images/logo.png" alt="logo">
       </figure>
     </header>
+    <!--Esta etiqueta contendra la primera seccion de la pagina-->
     <section>
+      <!--En esta etiqueta contenemos la figura que ocupara toda la primera parte de la pagina-->
       <figure>
         <img src="assets/images/bg-home.jpg" alt="bg-home">
       </figure>
+      <!--La etiqueta "div" contendra el titulo, subtitulo y el parrafo que irán dentro de la foto-->
       <div class="container">
         <h2 class="text-uppercase">you just found an untilmate</h2>
         <h1 class="text-uppercase">We are applove from heart</h1>
         <p class="text-uppercase">handcrafted - modern design - pixel perfect - passioned design</p>
-        <button><a class="text-uppercase">View services</a></button>         
+        <!--La etiqueta button es un contenedor especialmente para botones-->
+        <button>
+          <a class="text-uppercase">View services</a>
+        </button>         
       </div>
     </section>
+    <!--Esta etiqueta contendra la segunda seccion de la pagina-->
     <section>
+      <!--La etiqueta "div" contiene los subtitulos de la segunda seccion-->
       <div class="container1">
         <h2 class="text-uppercase">Services</h2>
         <h4>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididuntut,<br>
           magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-        </h4>        
+        </h4>
+        <!--Son tres etiquetas div que contienen imagenes y subtitulos para el diseño de esta seccion, estas
+        se trabajaran juntas-->        
         <div>
           <img class="services" src="assets/images/services-1.png" alt="services-1">
           <h5 class="text-uppercase">user interface design</h5>
@@ -60,7 +79,10 @@
         </div>
       </div>
     </section>
+    <!--Esta etiqueta contendra la tercera seccion de la pagina-->
     <section>
+      <!--Este primer "div" contiene los subtitulos de la tercera seccion y una imagen que se
+      usará para la página-->
       <div class="container2">
         <h2 class="text-uppercase">work</h2>
         <h4>
@@ -69,6 +91,8 @@
         </h4>
         <img src="assets/images/hero.png" alt="hero">
       </div>
+      <!--La etiqueta que tiene por clase "container3" contiene las images y el nombre del proyecto 
+      que se usarán para la página-->
       <div class="container3">
         <div>
           <img src="assets/images/work-1.jpg" alt="work-1">
@@ -120,6 +144,7 @@
         </div>
       </div>
     </section>
+    <!--Esta etiqueta representa un pie de página-->
     <footer>
       <p>&#169; Copyright</p>
     </footer>
